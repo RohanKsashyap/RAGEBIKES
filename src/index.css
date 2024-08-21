@@ -1,0 +1,15 @@
+.nav-ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    height: 20px;
+    cursor: pointer;
+}
+.nav-ul li{
+
+list-style: none;
+
+
+}
+
