@@ -28,17 +28,17 @@ function App() {
         <h2>Featured Bikes</h2>
         <div class="bikes">
             <div class="bike-card">
-                <img src="src/public/bikebg.jpg" alt="Bike 1"/>
+                <img src="public/bikebg.jpg" alt="Bike 1"/>
                 <h3>Bike Model 1</h3>
                 <p>Great for city rides. Stylish and efficient.</p>
             </div>
             <div class="bike-card">
-                <img src="src/public/bikebg.jpg" alt="Bike 2"/>
+                <img src="public/bikebg.jpg" alt="Bike 2"/>
                 <h3>Bike Model 2</h3>
                 <p>Perfect for mountain adventures.</p>
             </div>
             <div class="bike-card">
-                <img src="src/public/bikebg.jpg" alt="Bike 3"/>
+                <img src="public/bikebg.jpg" alt="Bike 3"/>
                 <h3>Bike Model 3</h3>
                 <p>Speed and elegance combined.</p>
             </div>
