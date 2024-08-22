@@ -1,15 +1,84 @@
-.nav-ul{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: black;
-    color: white;
-    height: 20px;
-    cursor: pointer;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
-.nav-ul li{
-
-list-style: none;
-
-
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    background-color: #555;
+}
+.hero {
+    background-image: url('src/public/bikebg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.container {
+    padding: 20px;
+}
+.section {
+    margin-bottom: 40px;
+}
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bikes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bike-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+.bike-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.bike-card h3 {
+    margin: 10px 0;
+}
+.bike-card p {
+    color: #666;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
